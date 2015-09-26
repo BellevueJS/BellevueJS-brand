@@ -10,10 +10,6 @@
         <polygon fill="#FFFFFF" points="0,-224 212,-184 160,128 0,192 -160,128 -212,-184"/>
       </g>
     </mask>
-
-    <style type="text/css">
-      @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
-    </style>
   </defs>
 
   <g transform="translate(256, 256) scale(1)">
@@ -40,8 +36,8 @@
     <!-- Bellevue Ribbon Front -->
     <g transform="translate(0,-24)">
       <polygon fill="#F3F3F3" points="-200,144 200,144 184,200 -184,200"/>
-      <text x="-154" y="188" style="font-family: Permanent Marker; font-size: 44px;" stroke-width="1.35" stroke="#888888">- BELLEVUE -</text>
-      <text x="-154" y="188" style="font-family: Permanent Marker; font-size: 44px;" fill="#505050">- BELLEVUE -</text>
+      <text x="-154" y="188" style="font-family: Verdana; font-size: 44px;" stroke-width="1.35" stroke="#888888">- BELLEVUE -</text>
+      <text x="-154" y="188" style="font-family: Verdana; font-size: 44px;" fill="#505050">- BELLEVUE -</text>
       <polygon fill="#E4E4E4" points="-200,144 200,144 198.85,148 -198.85,148"/>
       <polygon fill="#E4E4E4" points="-185.15,196 185.15,196 184,200 -184,200"/>
     </g>
