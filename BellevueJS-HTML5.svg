@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Author: Austin Steeno -->
+  <!-- Contact: austin.steeno (at) gmail (dot) com -->
+  <title>BellevueJS Meetup Logo</title>
+
+  <defs>
+    <mask id="letters">
+      <rect fill="#000000" x="-256" y="-256" width="512" height="512"></rect>
+      <g transform="translate(0,-2) scale(0.81, 0.822)">
+        <polygon fill="#FFFFFF" points="0,-224 212,-184 160,128 0,192 -160,128 -212,-184"/>
+      </g>
+    </mask>
+
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+    </style>
+  </defs>
+
+  <g transform="translate(256, 256) scale(1)">
+
+    <!-- Bellevue Ribbon Back -->
+    <g transform="translate(0,-24)">
+      <polygon fill="#E0E0E0" points="-140,172 -140,120 -252,120 -220,148 -244,172"/>
+      <polygon fill="#E0E0E0" points="140,172 140,120 252,120 220,148 244,172"/>
+      <polygon fill="#BBBBBB" points="-200,144 -184,200 -140,176 -140,120"/>
+      <polygon fill="#BBBBBB" points="200,144 184,200 140,176 140,120"/>
+    </g>
+
+    <!-- JS Plaque -->
+    <polygon fill="#CCCCCC" points="0,-224 212,-184 160,128 0,192 -160,128 -212,-184"/>
+    <g transform="scale(0.9, 0.9125)">
+      <polygon fill="#1572b6" points="0,-224 212,-184 160,128 0,192"/>
+      <polygon fill="#33a9dc" points="0,-224 0,192 -160,128 -212,-184"/>
+    </g>
+    <g mask="url(#letters)">
+      <path d="M-32,-187 L-32,128 L-116,94 L-126,36" stroke-width="32" stroke="#FFFFFF" fill="none"/>
+      <path d="M148.4,-112 L153.5,-143 L32,-167 L32,-32 L131,-12 L115,92 L32, 128 L32,90" stroke-width="32" stroke="#FFFFFF" fill="none"/>
+    </g>
+
+    <!-- Bellevue Ribbon Front -->
+    <g transform="translate(0,-24)">
+      <polygon fill="#F3F3F3" points="-200,144 200,144 184,200 -184,200"/>
+      <text x="-154" y="188" style="font-family: Permanent Marker; font-size: 44px;" stroke-width="1.35" stroke="#888888">- BELLEVUE -</text>
+      <text x="-154" y="188" style="font-family: Permanent Marker; font-size: 44px;" fill="#505050">- BELLEVUE -</text>
+      <polygon fill="#E4E4E4" points="-200,144 200,144 198.85,148 -198.85,148"/>
+      <polygon fill="#E4E4E4" points="-185.15,196 185.15,196 184,200 -184,200"/>
+    </g>
+
+  </g>
+
+</svg>
